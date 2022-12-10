@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-color: #302E2B;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.navbar {
+  background-color: #262522;
+}
+
+.navbar-brand.brand {
+  color: white;
+  padding: 0;
+}
+
+.main-container {
+  margin-top: 20px;
+}
+
+img.chessLogo {
+  height: 50px;
+  padding-right: 5px;
+}

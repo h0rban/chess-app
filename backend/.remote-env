@@ -1,0 +1,10 @@
+CHESS_DB_URI=mongodb+srv://atlas_db_user:ZR35AS2vw0kUGTEp@cluster0.frwgx.mongodb.net/chess_db?retryWrites=true&w=majority
+CHESS_NS=chess_db
+ATLAS_USER_PASSWORD=ZR35AS2vw0kUGTEp
+
+REDIS_HOST=redis-10661.c278.us-east-1-4.ec2.cloud.redislabs.com
+REDIS_PORT=10661
+REDIS_SECRET=Q8opRPECP4BsDsQ2akhOAeGmMSLjzHwt
+
+# connect locally to redis with:
+# redis-cli -h redis-10661.c278.us-east-1-4.ec2.cloud.redislabs.com -p 10661 -a Q8opRPECP4BsDsQ2akhOAeGmMSLjzHwt

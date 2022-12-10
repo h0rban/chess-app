@@ -1,0 +1,26 @@
+.header {
+    width: 33%;
+    /*min-height: 100vh;*/
+    padding: 1rem;
+    font-size: 2em;
+    color: white;
+}
+
+.radio {
+    width: 50%;
+    margin: 20px;
+    align-self: center;
+    background: #302E2B;
+}
+
+.radio.selected {
+    background: gray;
+}
+
+.play {
+    /* todo why does this not work*/
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}

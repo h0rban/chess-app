@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'ChessIcons';
+    src: local('ChessIcons'), url('../fonts/chessglyph.woff2') format('woff2');
+}
+
+
+.board {
+    margin: 20px;
+    width: auto;
+    height: auto;
+}
+
+.coordinate {
+    font-weight: bold;
+    font-size: 2.8px;
+
+    /* make coordinates unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.coordinate.light {
+    fill: #779952;
+}
+
+.coordinate.dark {
+    fill: #edeed1;
+}
+
+.square {
+    width: 12.5px;
+    height: 12.5px;
+}
+
+.square.light {
+    fill: #edeed1;
+}
+
+.square.dark {
+    fill: #779952;
+}
+
+.square.light.selected {
+    fill: rgb(237, 237, 131);
+}
+
+.square.dark.selected {
+    fill: rgb(180, 195, 66);
+}
+
+.hint {
+    fill: transparent;
+    stroke: rgba(0, 0, 0, .1);
+    stroke-width: 1;
+}
+
+.hint-empty {
+    fill: rgba(0, 0, 0, .1);
+}
+
+.exit-button {
+    font-family: 'ChessIcons', serif;
+    font-size: 4px;
+    fill: grey;
+    text-anchor: middle;
+    /*background-color:darkgrey;*/
+    /*border-color: transparent;*/
+    /*outline: none;*/
+
+    /*    todo make text unselectable and change mouse to pointy thing ?*/
+
+}
